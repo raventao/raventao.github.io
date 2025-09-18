@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Interactive Stair</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Rui</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="submission.html">Publications</a></li>
+							<li><a href="index.html">Selected Projects</a></li>
+							<li><a href="http://rocky-springs-30873.herokuapp.com/music">Music</a></li>
+							<li><a href="http://rocky-springs-30873.herokuapp.com/3dmodel">3D Models</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Interacive Stair</h1>
+							<span class="image main"><iframe width="863" height="400"
+								src="https://www.youtube.com/embed/7TK2JS7981M">
+								</iframe></span>
+								<p>
+								The interactive stair is a project that uses wearable ankle devices to produce self-generated music based on detected user motions. Participants represent different instruments jamming together, transforming their movement into different harmony parts. Through this, we encourage people to climb the stair by transferring tedious action into inspiring and rewarding music-producing activity. Thus, we utilize this chance to analyze people's intuitions and implicit interaction toward their movement and how people collaborate in such activity.
+								</p>
+								<h3>Music demo</h3>
+								<p>
+								<a href="https://cims.nyu.edu/~rh2981/presentation/demo/interactive_stair/sample.html">https://cims.nyu.edu/~rh2981/presentation/demo/interactive_stair/sample.html</a>
+								</p>
+								<h3>Technical implement</h3>
+								<img class="image" src="https://wp.nyu.edu/artsampscience-albert_ruixiang/wp-content/uploads/sites/19730/2022/10/Screen-Shot-2022-10-17-at-4.14.15-PM.png" alt="" width="627" height="308" />
+								<p>
+								<code>Music theory-based generation. </code>Pre-code rules for note&amp;harmony selection during music generation based on music theory. Make sure that the music produced will be appealing to the participants.
+								<p>
+								<code>Markov chain.</code> Use a stochastic model describing a sequence of possible notes in which the probability of each note depends only on the state/characteristic of the previous note.
+								</p>
+								<p>
+								<code>Motion detection.</code> 
+								Use IMU to detect the speed of participants. Map the speed to the corresponding BPM of the music.
+								</p>
+								<img class="image"src="https://wp.nyu.edu/artsampscience-albert_ruixiang/wp-content/uploads/sites/19730/2022/04/Screen-Shot-2022-04-25-at-9.11.42-PM-e1666031616604.png" alt="">
+								<h3>Discussion and Result</h3>
+								We want to use this project to understand how people who have no background in music
+								<ul>
+									 <li>interact and intervene with the music that they "produce".&nbsp;</li>
+									 <li>how people, as a band, respond to each other. Like "call and response" in blues</li>
+									 <li>what is the implicit sign when people&nbsp;</li>
+								</ul>
+								&nbsp;
+								
+								&nbsp;
+						</div>
+					</div>
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
